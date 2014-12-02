@@ -1,0 +1,15 @@
+#/usr/bin/python
+
+import socket
+import sys
+import struct
+from stat_machine import *
+
+_sm = stat_machine()
+
+fe_server = ''
+hash_table = dict()
+
+class pkt_desc:
+self.in_time = 0;
+
